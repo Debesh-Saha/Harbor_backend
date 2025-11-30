@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Optional: IDE/editor configs
+.vscode/
+.DS_Store
