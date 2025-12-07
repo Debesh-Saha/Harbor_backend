@@ -20,7 +20,7 @@ const client = new google_auth_library_1.OAuth2Client(process.env.GOOGLE_CLIENT_
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use((0, cors_1.default)({
-    origin: process.env.FRONTEND_URL,
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
