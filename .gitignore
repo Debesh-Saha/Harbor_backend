@@ -13,3 +13,6 @@ node_modules/
 # Optional: IDE/editor configs
 .vscode/
 .DS_Store
+
+#text file
+read.txt
